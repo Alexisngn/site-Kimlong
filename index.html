@@ -5,159 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kim Long - Restaurant à Bollène</title>
+    <title>Kim Long - Site en Construction</title>
     <style>
-        /* Style général */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-image: url('background-asie.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
         }
 
-        header {
-            background-color: #333;
-            color: #fff;
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
             text-align: center;
-            padding: 2rem 0;
+            max-width: 600px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
         }
 
-        header h1 {
+        h1 {
             font-size: 2.5rem;
-            margin: 0;
+            margin-bottom: 1rem;
+            color: #ffcc00;
+            font-family: 'Georgia', serif;
         }
 
-        header p {
+        p {
             font-size: 1.2rem;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.2rem;
-        }
-
-        /* Mise en page des sections */
-        section {
-            margin: 2rem;
-            padding: 2rem;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        section h2 {
-            font-size: 2rem;
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
 
-        section p, ul {
-            font-size: 1.1rem;
+        .social-links {
+            margin-top: 20px;
         }
 
-        ul {
-            list-style-type: square;
-            padding-left: 1.5rem;
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #ffcc00;
         }
 
-        /* Galerie d'images */
-        .gallery {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .gallery img {
-            max-width: 30%;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 1.5rem 0;
-            background-color: #333;
+        .social-links a:hover {
             color: #fff;
-            margin-top: 2rem;
         }
 
-        /* Adaptation responsive pour les petits écrans */
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
         @media (max-width: 768px) {
-            nav ul li {
-                display: block;
-                margin: 10px 0;
+            h1 {
+                font-size: 2rem;
             }
 
-            .gallery img {
-                max-width: 100%;
+            p {
+                font-size: 1rem;
+            }
+
+            .container {
+                width: 90%;
             }
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#gallery">Galerie</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Restaurant Kim Long</h1>
-        <p>Découvrez les saveurs authentiques de la cuisine du Vietnam à Bollène</p>
-    </header>
-
-    <section id="about">
-        <h2>À propos de nous</h2>
-        <p>Le restaurant Kim Long, situé à Bollène, vous propose une sélection de plats asiatiques préparés avec des ingrédients frais et de qualité. Venez savourer une expérience culinaire unique dans un cadre convivial.</p>
-    </section>
-
-    <section id="menu">
-        <h2>Notre Menu</h2>
-        <p>Explorez nos plats populaires :</p>
-        <ul>
-            <li>Canard laqué</li>
-            <li>Banh Xeo</li>
-            <li>Nouilles sautées aux légumes</li>
-            <li>Bo bun nems</li>
-        </ul>
-    </section>
-
-    <section id="gallery">
-        <h2>Galerie</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Plat 1">
-            <img src="image2.jpg" alt="Plat 2">
-            <img src="image3.jpg" alt="Plat 3">
+    <div class="container">
+        <h1>Kim Long - Restaurant</h1>
+        <p>Site en construction, retrouvez-nous bientôt !</p>
+        <p>Suivez-nous sur nos réseaux sociaux :</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/KimlongBollene" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/KimlongBollene" target="_blank">Instagram</a>
         </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <p>Adresse : 27 boulevard Victor Hugo, 84500 Bollène</p>
-        <p>Téléphone : 04 90 30 48 39</p>
-        <p>Email : </p>
-    </section>
+        <p>Ou contactez-nous par téléphone : <strong>04 90 30 48 39</strong></p>
+        <p>Adresse : <strong>27 Boulevard Victor Hugo, 84500 Bollène</strong></p>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Kim Long - Tous droits réservés.</p>
+        &copy; 2024 Kim Long. Tous droits réservés.
     </footer>
 </body>
 
