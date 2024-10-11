@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kim Long - Site en Construction</title>
+    <title>Kim Long Bollène - Site en Construction</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -19,27 +19,30 @@
             justify-content: center;
             align-items: center;
             color: #fff;
+            position: relative;
+            background-color: #f5e6cc;
         }
 
         .container {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(255, 245, 235, 0.9); /* Fond beige clair semi-transparent */
             padding: 20px;
             border-radius: 10px;
             text-align: center;
             max-width: 600px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: #ffcc00;
+            color: #b30000; /* Rouge foncé */
             font-family: 'Georgia', serif;
         }
 
         p {
             font-size: 1.2rem;
             margin-bottom: 1rem;
+            color: #333; /* Gris foncé pour un bon contraste */
         }
 
         .social-links {
@@ -50,17 +53,25 @@
             margin: 0 10px;
             text-decoration: none;
             font-size: 1.5rem;
-            color: #ffcc00;
+            color: #b30000; /* Rouge foncé pour les liens */
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s ease;
         }
 
         .social-links a:hover {
-            color: #fff;
+            color: #d4a017; /* Jaune doré au survol */
+            border-bottom: 2px solid #d4a017; /* Soulignement doré */
         }
 
         footer {
-            margin-top: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(179, 0, 0, 0.9); /* Rouge foncé semi-transparent */
+            color: #f5e6cc; /* Beige clair pour contraste */
             font-size: 0.9rem;
-            color: #ccc;
         }
 
         @media (max-width: 768px) {
@@ -81,14 +92,14 @@
 
 <body>
     <div class="container">
-        <h1>Restaurant Kim Long à Bollène</h1>
+        <h1>Kim Long à Bollène</h1>
         <p>Site en construction, retrouvez-nous bientôt !</p>
         <p>Suivez-nous sur nos réseaux sociaux :</p>
         <div class="social-links">
             <a href="https://www.facebook.com/KimlongBollene" target="_blank">Facebook</a> |
             <a href="https://www.instagram.com/KimlongBollene" target="_blank">Instagram</a>
         </div>
-        <p>Ou contactez-nous par téléphone : <strong>04 90 30 48 39</strong></p>
+        <p>ou contactez-nous par téléphone : <strong>04 90 30 48 39</strong></p>
         <p>Adresse : <strong>27 Boulevard Victor Hugo, 84500 Bollène</strong></p>
     </div>
 
